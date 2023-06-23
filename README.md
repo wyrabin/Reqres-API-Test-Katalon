@@ -14,9 +14,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them.
-- First things first, you should install intellij idea, you can download [here](https://www.jetbrains.com/idea/download/#section=windows)
 
-- Next, install the JDK 11, you can download [here](https://bell-sw.com/pages/downloads/)
+- install the JDK 11, you can download [here](https://bell-sw.com/pages/downloads/)
+- Next, you should install Katalon Studio, you can download [here](https://katalon.com/download)
 
 
 ## 🔧 Running the tests <a name = "tests"></a>
@@ -24,28 +24,15 @@ What things you need to install the software and how to install them.
 To running the test, please follow this steps:
 1. Clone the repository
     ```
-   git clone https://github.com/wyrabin/Weatherbit-Api-Automation.git
+   git clone https://github.com/wyrabin/Reqres-API-Test-Katalon.git
     ```
-2. Open the repository / project with Intellij IDEA  
-3. Run the tests using the following command. The test will be run on the headless mode. Wait until the test is finished.
-    ```
-    mvn clean verify
-    ```
-4. You can see the report on folder target -> site -> index.html
-5. Open index.html with your default web browser
-
-NOTE:
-<p>You can also see the latest report on the action tab. Click on the latest workflow, scroll down. In the artifact section you can download the serenity report [here](https://github.com/wyrabin/Weatherbit-Api-Automation/suites/12566456231/artifacts/671737698)
-</p>
-
+2. Open the repository / project with Katalon Studio  
+3. Go Test Explorer -> Test Suites -> ReqresAPITestSuite. Press Ctrl + Shift + A
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [Java](https://www.java.com/en/) - Programming Language
-- [Rest-Assured](https://rest-assured.io/) - Automation Framework
-- [Intellij IDEA](https://www.jetbrains.com/idea/) - IDE
-- [Cucumber](https://cucumber.io/) - BDD
-- [SerenityBDD](https://serenity-bdd.info/) - Automation Framework
+- [Groovy](https://groovy-lang.org/) - Programming Language
+- [Katalon Studio](https://katalon.com/) - Software
 
 ## ✍️ Authors <a name = "authors"></a>
 
