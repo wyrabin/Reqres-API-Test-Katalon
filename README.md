@@ -26,7 +26,7 @@ To running the test, please follow this steps:
     ```
    git clone https://github.com/wyrabin/Reqres-API-Test-Katalon.git
     ```
-2. Open the repository / project with Katalon Studio  
+2. Open the repository / project with Katalon  
 3. Go Test Explorer -> Test Suites -> ReqresAPITestSuite. Press Ctrl + Shift + A
 
 ## ⛏️ Built Using <a name = "built_using"></a>
